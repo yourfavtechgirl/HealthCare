@@ -77,25 +77,25 @@ Each row in the dataset represents a medical appointment with the following colu
 Insight: Patients who didn’t receive SMS reminders had a higher no-show rate.
 Recommendation:
 Implement automated SMS reminders, especially for:
-   i. Patients under age 25 (who showed higher no-show rates)
-   ii. Appointments with longer waiting times (e.g., scheduled 10+ days ahead)
+   1. Patients under age 25 (who showed higher no-show rates)
+   2. Appointments with longer waiting times (e.g., scheduled 10+ days ahead)
 
    ✅ 2. Reduce Waiting Time Between Scheduling and Appointment
 Insight: Longer waiting times were correlated with higher no-show likelihood.
 Recommendation:
-Aim to shorten the gap between scheduledday and appointmentday
+  1. Aim to shorten the gap between scheduledday and appointmentday
 
 
 ✅ 3. Optimize Scheduling Based on No-Show Trends by Weekday
 Insight: Certain weekdays (e.g., Fridays or Mondays, based on your plot) showed higher no-show rates.
 Recommendation:
-   i. Avoid scheduling first-time or high-risk patients on historically high no-show days
+   1. Avoid scheduling first-time or high-risk patients on historically high no-show days
 
    ✅ 4. Educate Patients on Chronic Condition Follow-ups
 Insight: Patients with hypertension and diabetes were more likely to attend their appointments.
 Recommendation:
-  i. Use this finding to educate and motivate other patients about the importance of regular visits
-ii. For patients without chronic conditions, send educational SMS or email campaigns on preventive care
+  1. Use this finding to educate and motivate other patients about the importance of regular visits
+2. For patients without chronic conditions, send educational SMS or email campaigns on preventive care
 
 
 
